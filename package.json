@@ -1,0 +1,25 @@
+{
+  "name": "generate-my-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarsiguencia/generatemyteam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarsiguencia/generatemyteam/issues"
+  },
+  "homepage": "https://github.com/cesarsiguencia/generatemyteam#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
