@@ -1,19 +1,12 @@
-const Generator = require('../lib/Generator');
+const Employee = require('../lib/Employee');
 
 test('creates a manager object',() => {
-    const generator = new Generator();
+    const employee = new Employee();
 
-    expect(generator.managerInfo).toEqual(expect.any(Object));
+    expect(employee.name)
+    expect(employee.id)
+    expect(employee.email)
+    expect(employee.intern)
+    expect(employee.manager)
+    expect(employee.engineer)
 })
-
-test('creates an array of collagues',() => {
-    const generator = new Generator();
-
-    expect(generator.employeesArray).toEqual(expect.any(Array));
-})
-
-// test("get's manager's stats in the oobject",() => {
-//     const generator = new Generator();
-
-//     expect(generator.managerPrompt()).toHaveProperty(managerInfo);
-// })
