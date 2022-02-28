@@ -191,6 +191,10 @@ nav a:hover {
   display: inline;
 }
 
+.email-color {
+  color: white;
+}
+
 /* HEIGHT / WIDTH UTILS */
 .w-100 {
   width: 100%;
