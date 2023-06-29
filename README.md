@@ -1,7 +1,15 @@
-# Welcome to my Teams and Collagues Website Generator
+# Teams and Collagues Website Generator
 
 ### Description
-This app is a command-line program used to create a simple website outlining all members of your workplace team, including a manager, engineers, interns, and other employees. The user will be asked a series of questions relating to each individual employee, such as name, email, and office. 
+This is an OOP app that runs through the command-line using the inquirer package. This application creates an index.html page with useful information provided by you on your company's employee credentials, such as their ID, email, office location, and github username. 
+
+Classify Employees as:
+- Manager
+- Engineers
+- Intern
+- Other
+
+This app uses the inquirer package and fs.writeFile module.
 
 To start the program, download this repository and check in to the local in the command-line. Type 'node index' to run program.
 
